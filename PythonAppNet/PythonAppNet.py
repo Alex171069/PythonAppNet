@@ -1,7 +1,7 @@
 import socket
 
 
-# сетевой сервер
+ # сетевой сервер
 sock = socket.socket() 
 sock.bind(('',9090))
 sock.listen(1)
